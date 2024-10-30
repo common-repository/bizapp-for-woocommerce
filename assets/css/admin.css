@@ -1,0 +1,20 @@
+.toplevel_page_bizapp .wp-menu-image img { opacity: 1 !important; }
+.bizapp-woocommerce-settings .csf-header-left .bizapp-logo {
+    vertical-align: middle;
+    margin: 0 8px 5px 0;
+}
+.bizapp-woocommerce-settings .csf-field-checkbox ul li:first-child {
+    margin-bottom: 15px;
+}
+.wc-action-button-bizapp-woocommerce-create-order {
+    background-color: #ed2226 !important;
+    width: 30px !important;
+    border: 0 !important;
+}
+.wc-action-button-bizapp-woocommerce-create-order::after {
+    content: '';
+    background: #ed2226 url( '../images/bizapp.png' ) no-repeat;
+    background-size: 24px 24px;
+    margin-top: 4px !important;
+    margin-left: 3px !important;
+}
